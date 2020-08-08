@@ -1,0 +1,88 @@
+body {
+	font: 15px Tahoma, sans-serif !important;
+	background-color: #118ab0 !important;
+	padding: 4px;
+	margin: 10px;
+}
+
+.para1 {
+	font: 15px !important;
+	border: 2px solid black;
+	border-color: #036e2e;
+	margin-bottom: 20px;
+	padding: 2px;
+	background-color: #C4C4C4 !important;
+	height: 270px;
+}
+
+.para2 {
+	border: 2px solid black;
+	border-color: #036e2e;
+	margin-bottom: 20px;
+	padding: 2px;
+	background-color: #C4C4C4 !important;
+	height: 250px;
+}
+
+.para3 {
+	border: 2px solid black;
+	border-color: #036e2e;
+	margin-bottom: 20px;
+	padding: 2px;
+	background-color: #C4C4C4 !important;
+	height: 270px !important;
+}
+
+.para4 {
+	border: 2px solid black;
+	border-color: #036e2e;
+	margin-bottom: 20px;
+	padding: 2px;
+	background-color: #C4C4C4 !important;
+	height: 100px;
+}
+
+.jumbotron {
+	background-color: #C4C4C4 !important;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+  	height: 10px;
+  	padding-top: 10px !important;
+  	border: 2px solid black;
+  	border-color: #036e2e !important;
+}
+
+pre {
+	font: 15px Tahoma, sans-serif !important;
+}
+
+.btn {
+	margin-bottom: 40px;
+}
+
+img {
+	height: 250px;
+	width: auto;
+}
+.a-block {
+	height: 270px;
+}
+
+.b-block {
+	height: 250px;
+}
+
+.c-block {
+	height: 270px;
+}
+
+.button1 {
+  margin-bottom: 20px !important;
+  background-color: #007bff;
+  color: white;
+  padding: 16px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  border: none;
+}
