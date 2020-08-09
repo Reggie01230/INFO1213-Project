@@ -1,0 +1,82 @@
+body {
+	font: 15px Tahoma, sans-serif !important;
+	background-color: #118ab0 !important;
+	padding: 4px;
+	margin: 10px;
+}
+
+.para1 {
+	border: 2px solid black;
+	border-color: #036e2e;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 2px;
+	background-color: #C4C4C4 !important;
+	height: 250px;
+}
+
+.para2 {
+	border: 2px solid black;
+	border-color: #036e2e;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 2px;
+	background-color: #C4C4C4 !important;
+	height: 250px;
+}
+
+.para3 {
+	border: 2px solid black;
+	border-color: #036e2e;
+	margin-bottom: 20px;
+	padding: 2px;
+	background-color: #C4C4C4 !important;
+	height: 150px !important;
+}
+
+.para4 {
+	border: 2px solid black;
+	border-color: #036e2e;
+	margin: 2px;
+	padding: 2px;
+	background-color: #C4C4C4 !important;
+	height: 100px;
+}
+
+.jumbotron {
+	background-color: #C4C4C4 !important;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+  	height: 10px;
+  	padding-top: 10px !important;
+  	border: 2px solid black;
+  	border-color: #036e2e !important;
+}
+
+.navbar {
+	background-color: #C4C4C4;
+	margin-bottom: 20px;
+	border: 2px solid black;
+	border-color: #036e2e !important;
+}
+
+.first {
+	margin-left: 24px;
+}
+
+.second {
+	margin-left: 24px;
+}
+
+.third {
+	margin-left: 24px;
+}
+
+.contactinfo {
+	font: 15px Tahoma, sans-serif !important;
+}
+
+.btn {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
