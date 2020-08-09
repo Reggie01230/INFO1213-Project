@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Meta tags and stylesheets -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" type="text/css" href="Project.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<!-- Title of webpage -->
+<title>Homepage</title>
+</head>
+
+<!-- Title -->
+<body class="bg-info">
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+	<h1>Reggie's Catering</h1>
+		</div>
+	</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm navbar-dark">
+	<div class="navbar-header">
+		<a class="navbar-brand text-dark">Welcome To My Homepage!</a>
+	</div>
+		<ul class="nav navbar-nav">
+			<li class="first"><a href="#" class="text-dark">Business Information</a></li>
+			<li class="second"><a href="#" class="text-dark">Contact Information</a></li>
+			<li class="third"><a href="Project-Page2.html" class="text-dark">Items</a></li>
+		</ul>
+</nav>
+
+<!-- Popover -->
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+</script>
+
+<button type="button" class="btn btn-md btn-primary" data-toggle="popover" title="My company has 500 employees throughtout all our locations.">Fun fact</button>
+
+<!-- Button that collapses -->
+<p>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample">Click this for more information
+ </button>
+</p>
+<div class="collapse" id="collapseExample">
+<div class="card2 card-body bg-primary text-light">
+Currently we have locations in Richmond, Vancouver, and Victoria. We will be expanding to Edmonton, Toronto, and Winnipeg with the next few years.
+</div>
+</div>
+
+<!-- Business Information -->
+<div class="row">
+	<div class="col-sm-9">
+		<div class="para1">
+			<p class="info"><strong>Business Information</strong></p>
+			<hr>
+			<br>
+			We provide our customers with many different options for their catering needs. Select from a wide array of options that suit your tastes. Our employess will be happy to help you pick our the perfect package for wedding, birthday party, or staff party.
+			<p></p>
+		</div>
+	</div>
+
+<!-- Information about business owner -->
+	<div class="col-sm-3">
+		<div class="para2">
+			<p class="OwnerInfo"><strong>Reggie Goundar</strong></p>
+			<hr>
+			<br>
+			I started this business in 2005 due to there being a lack of catering companies in this city. We have now been open for over 15 years and we plan to add more locations in other cities near us. My company has been rated the number 1 catering company in the city for for 5 years straight. I started this company so people could have access to great food for great prices and I hope that my company can continue to satisfy even more customers in the future.
+			<p></p>
+		</div>
+	</div>
+</div>
+
+<!-- Link to Second Page -->
+<div class="row">
+	<div class="col-sm-12">
+		<div class="para3"><a href="Project-Page2.html" class="text-primary">Click this to go to our food and beverage menu</a>
+		<hr>
+		<br>
+		Please click the link above to go to the selection page to choose from a wide variety food and beverage options.
+		<p></p>
+		</div>
+	</div>
+</div>
+
+<!-- Contact Information -->
+<div class="row">
+	<div class="col-sm-12">
+		<div class="para4">
+			<p class="Contact"><strong>Contact Information</strong></p>
+			<hr>
+			<pre class="contactinfo">Store Phone: 604-444-4444               Personal Phone: 604-555-5555               Email: ReggieCatering_555@outlook.com               Facebook: Reggie's Catering               Twitter: @Reggie's_Catering </pre>
+			<p></p>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
